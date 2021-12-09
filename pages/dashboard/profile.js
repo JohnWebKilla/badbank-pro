@@ -4,7 +4,7 @@ import Head from "next/head";
 import { DeleteOutlined, KeyOutlined } from "@ant-design/icons";
 import firebase from "../../firebase/firebase";
 import Router from "next/router";
-import { Table} from 'antd';
+
 
 
 
