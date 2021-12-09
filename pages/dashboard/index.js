@@ -8,6 +8,8 @@ import firebase from "../../firebase/firebase";
 export default function dashboard() {
   const [balance, setBalance] = React.useState(0);
   const profile = firebase.getProfile();
+
+  
   React.useEffect(() => {
     const balancePromise = firebase.getBalancePromise(profile);
     balancePromise.then((result) => {
